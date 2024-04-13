@@ -51,9 +51,9 @@
                 $.getJSON("games.json", function(data){
                     $.each(data.videogames, function(key, value){
                         $(".mainJSONText").append("<h3>" +
-                        value.name + "</h3>" + "Genre: " +
-                        value.genre + "<br>" + "<br>" + "Release Date: " +
-                        value.releasedate + "<br>" + "<br>" + "Description: " +
+                        value.name + "</h3>" + "<strong>" + "Genre: " + "</strong>" +
+                        value.genre + "<br>" + "<br>" + "<strong>" + "Release Date: " + "</strong>" +
+                        value.releasedate + "<br>" + "<br>" + "<strong>" + "Description: " + "</strong>" +
                         value.description + "<br>" + "<br>");    
                     });
                 });

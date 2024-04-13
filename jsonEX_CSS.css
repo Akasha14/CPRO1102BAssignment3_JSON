@@ -21,10 +21,6 @@
 .mainJSONText h3 {
 	text-align: center;
 	border: 2px solid black;
-	width: fit-content;
 	padding-left: 10px;
 	padding-right: 10px;
-	margin: auto;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
 }
