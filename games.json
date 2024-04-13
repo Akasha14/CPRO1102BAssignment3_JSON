@@ -1,0 +1,34 @@
+{"videogames":[
+
+    {
+    "name":"Skyrim",
+
+    "genre":"Action/Adventure",
+
+    "releasedate":"November 11, 2011",
+
+    "description":"Skyrim is an open-world action role-playing video game developed by Bethesda Game Studios. Set in the fictional province of Skyrim, players embark on an epic adventure filled with dragons, magic, and a richly detailed world to explore."
+    },
+
+
+    {
+    "name":"Destiny 2",
+
+    "genre":"Looter Shooter",
+
+    "releasedate":"September 6, 2017",
+
+    "description":"Destiny 2 is a multiplayer online shooter game developed by Bungie. Players assume the role of Guardians, warriors tasked with protecting humanity from various alien threats across the solar system."
+    },
+
+    {
+        "name":"World of Warcraft",
+    
+        "genre":"MMO",
+    
+        "releasedate":"November 23, 2004",
+    
+        "description":"World of Warcraft is a massively multiplayer online role-playing game set in the fantasy world of Azeroth, where players embark on epic quests, battle mythical creatures, and engage in strategic warfare between the Alliance and the Horde factions."
+        }
+
+   ]}

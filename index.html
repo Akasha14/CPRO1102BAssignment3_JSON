@@ -6,7 +6,7 @@
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>JSON</title>
+        <title>JSON Import</title>
         
         <!-- Themeroller used for css -->
         <link rel="stylesheet" href="themes/blueTheme.min.css" />
@@ -14,45 +14,51 @@
 
         <!-- jQuery Version, UI, JS, and CSS -->
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
 
-        <!-- My imported files **All of my JavaScript and most of my CSS** -->
-        <script src="meowJS.js"></script>
+        <!-- My CSS -->
         <link rel="stylesheet" href="jsonEX_CSS.css"/>
     </head>
 
     <body>
-        <!-- Blog Page -->
-        <div class="pg" data-role="page" id="blog">
+        <!-- Main Page -->
+        <div class="pg" data-role="page" id="games">
 
             <header data-role="header">
 
                 <h1 style="padding-top: 20px; font-size: xx-large; text-align: center;">
-                    External JSON
+                    Video Game Info
                 </h1>
-                
 
             </header>
 
             <section class="ui-content" role="main">
 
-                <div class="blogEntry">
-                    <!--  -->
+                <h2 class="jsonTitle">Imported from <u>games.json</u> File</h2>
 
-                    <h2 class="blogTitle">
-                        Import from .json File
-                    </h2>
-
-                    <p class="mainBlogText">
-                        
-                    </p>
-                </div>
-
+                <!-- Display .json data here. -->
+                <p class="mainJSONText"></p>
+                
             </section>
-
             <footer data-role="footer"><h4>&copy; 2024</h4></footer>
         </div>
+
+        <script>
+
+            // Script to pull .json data.
+            $(document).ready(function(){
+                $.getJSON("games.json", function(data){
+                    $.each(data.videogames, function(key, value){
+                        $(".mainJSONText").append("<h3>" +
+                        value.name + "</h3>" + "Genre: " +
+                        value.genre + "<br>" + "<br>" + "Release Date: " +
+                        value.releasedate + "<br>" + "<br>" + "Description: " +
+                        value.description + "<br>" + "<br>");    
+                    });
+                });
+            });
+
+        </script>
     </body>
 </html>
