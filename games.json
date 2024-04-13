@@ -21,14 +21,26 @@
     "description":"Destiny 2 is a multiplayer online shooter game developed by Bungie. Players assume the role of Guardians, warriors tasked with protecting humanity from various alien threats across the solar system."
     },
 
+
     {
-        "name":"World of Warcraft",
+    "name":"World of Warcraft",
+
+    "genre":"MMO",
+
+    "releasedate":"November 23, 2004",
+
+    "description":"World of Warcraft is a massively multiplayer online role-playing game set in the fantasy world of Azeroth, where players embark on epic quests, battle mythical creatures, and engage in strategic warfare between the Alliance and the Horde factions."
+    },
+
     
-        "genre":"MMO",
-    
-        "releasedate":"November 23, 2004",
-    
-        "description":"World of Warcraft is a massively multiplayer online role-playing game set in the fantasy world of Azeroth, where players embark on epic quests, battle mythical creatures, and engage in strategic warfare between the Alliance and the Horde factions."
-        }
+    {
+    "name":"Fortnite",
+
+    "genre":"Battle Royale",
+
+    "releasedate":"July 21, 2017",
+
+    "description":"Fortnite is a popular online multiplayer battle royale game where players compete to be the last one standing on a constantly shrinking map. Known for its colorful graphics, fast-paced gameplay, and unique building mechanics, Fortnite has become a cultural phenomenon, attracting millions of players worldwide."
+    }
 
    ]}
