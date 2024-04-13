@@ -1,0 +1,65 @@
+/* CSS for better blog page */
+.blogTitle {
+	text-align: center;
+	font-size: xx-large;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 15px;
+	background-color: #4397d0;
+	color: #ffffff;
+}
+
+.blogEntry {
+	border: 2px solid black;
+	padding: 15px;
+	margin-bottom: 2rem;
+}
+
+.mainBlogText {
+	border: 10px groove black;
+	padding: 10px;
+	background-color: #fefeff;
+	border-radius: 5px;
+}
+
+.sourceText {
+	border: 5px groove black;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+/* CSS for the Pet Services Page */
+.serviceSection {
+	border: 2px solid black;
+	padding-left: 10px; padding-right: 10px;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+	border-radius: 5px;
+}
+
+.serviceTitle {
+	text-align: center;
+	font-size: xx-large;
+	border: 2px solid black;
+	border-radius: 6px;
+	padding: 15px;
+	background-color: #4397d0;
+	color: #ffffff;
+}
+
+.groomingTitle {
+	border-top: 2px solid black;
+	font-size: x-large;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+
+/* For main title */
+.ui-title {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: block !important;
+	overflow: visible !important;
+	white-space: normal !important;
+}
